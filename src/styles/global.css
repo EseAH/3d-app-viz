@@ -8,6 +8,7 @@
 	--gray-gradient: rgba(var(--gray-light), 50%), #fff;
 	--box-shadow: 0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
 		0 16px 32px rgba(var(--gray), 33%);
+	background-color: slategrey;
 }
 @font-face {
 	font-family: 'Atkinson';
@@ -37,10 +38,11 @@ body {
 	line-height: 1.7;
 }
 main {
-	width: 720px;
+	width: 1280px;
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
+	background-color: slategrey;
 }
 h1,
 h2,
